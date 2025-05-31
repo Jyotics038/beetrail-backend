@@ -15,6 +15,40 @@ It stores hive logs, manages crop flowering calendars, and helps find crops clos
 
 ---
 
+### Prerequisites
+
+- **Node.js** (v16 or higher)
+- **MongoDB** (local or Atlas)
+- **Postman** (optional, for testing APIs)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/bee-trail-backend.git
+cd bee-trail-backend
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+Create a .env file in the root folder and add the following:
+
+```bash
+PORT=8000
+MONGODB_URI=mongodb://localhost:27017/beetrail-backend
+
+Replace the MONGODB_URI with your own MongoDB connection string if needed.
+```
+### 4. Start the server
+
+```bash
+npm start
+```
+
 ## APIs
 
 ### 1. Add Hive Log  
